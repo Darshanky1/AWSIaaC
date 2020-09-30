@@ -144,7 +144,7 @@
         NatGatewayId: !Ref NATGateway
 
 
-  #Route Table Association
+ # #Route Table Association
 
     PublicSubnetARouteTableAssociation:
       Type: AWS::EC2::SubnetRouteTableAssociation
